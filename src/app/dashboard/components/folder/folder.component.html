@@ -1,0 +1,9 @@
+<details>
+  <summary>{{ folder.raw.title }}</summary>
+  <div>
+    <ng-container *ngFor="let child of folder.children">
+      <app-folder *ngIf="child.raw.type === 'folder'" [folder]="child"></app-folder>
+      <a *ngIf="child.raw.type === 'bookmark'" [attr.href]="child.raw.url">{{ child.raw.title }}</a>
+    </ng-container>
+  </div>
+</details>
