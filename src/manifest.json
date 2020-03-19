@@ -1,0 +1,19 @@
+{
+  "name": "Bookmarkly",
+  "version": "0.0.1",
+  "description": "Keep all your bookmarks on one tab",
+  "manifest_version": 2,
+  "author": "Sam Bulatov",
+
+  "permissions": [ "bookmarks" ],
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "icons": {
+    "512": "assets/icon-512.png",
+    "128": "assets/icon-128.png",
+    "32": "assets/icon-32.png"
+  }
+}
