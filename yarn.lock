@@ -181,11 +181,6 @@
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-9.0.6.tgz#cc72d859359b1bddc052549c20092905d6246ce7"
   integrity sha512-egpVGqqI+L1QQFn9ziHIElXb0bCzY1l8vzyQGfm2KnxHpmx2TJp2uaaHh5LRcqYR7TLeGMpqmzhRxir6Up7AAQ==
 
-"@angular/elements@9.0.6":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-9.0.6.tgz#2003c52864a54c025f67c2f610b99172a0abd72b"
-  integrity sha512-ofE9lIJDMBOTr/Z9Eqo55qJ5dxo1/dHYBTLJRXndAVT7yItBnhu4vwMxSIGzEMRbZMm4pPVuIZjZAYH8vpTF2A==
-
 "@angular/forms@9.0.6":
   version "9.0.6"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-9.0.6.tgz#02df7adddd679706a8ac1bcc0f2da1fd5d11c348"
@@ -3546,13 +3541,6 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-document-register-element@^1.7.2:
-  version "1.14.3"
-  resolved "https://registry.yarnpkg.com/document-register-element/-/document-register-element-1.14.3.tgz#3335d4578df6a1536a34595b91cca36dd5db61d7"
-  integrity sha512-SbJTzoQXLTcYxnpdDNRZXu/gwsGSShemXpvj6Pa6ujRwJFpJ41siil4tk4y+cQXnqylS6mc2Rtxp/PkMzfkqyQ==
-  dependencies:
-    lightercollective "^0.3.0"
-
 dom-serialize@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/dom-serialize/-/dom-serialize-2.2.1.tgz#562ae8999f44be5ea3076f5419dcd59eb43ac95b"
@@ -6390,11 +6378,6 @@ lie@~3.3.0:
   dependencies:
     immediate "~3.0.5"
 
-lightercollective@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/lightercollective/-/lightercollective-0.3.0.tgz#1f07638642ec645d70bdb69ab2777676f35a28f0"
-  integrity sha512-RFOLSUVvwdK3xA0P8o6G7QGXLIyy1L2qv5caEI7zXN5ciaEjbAriRF182kbsoJ1S1TgvpyGcN485fMky6qxOPw==
-
 lighthouse-logger@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/lighthouse-logger/-/lighthouse-logger-1.2.0.tgz#b76d56935e9c137e86a04741f6bb9b2776e886ca"
@@ -8362,9 +8345,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
